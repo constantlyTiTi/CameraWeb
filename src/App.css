@@ -1,38 +1,60 @@
 .App {
   text-align: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
 .App-logo {
-  height: 40vmin;
-  pointer-events: none;
+  height: 50px;
+  padding-top: 20px;
+}
+.AppImg
+{
+  height: 100%;
+  width: 100%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.contact-log{
+  height: 30px;
+  width: auto;
+  padding-left: 5px;
+  float: right;
+}
+.ContactLogoMargin{
+  height: 40px;
+  margin: auto;
+  width: 20vw;
+  text-align: center;
+}
+.AppNavHeaderMenuShow:hover .dropDownMenuShowClass
+{
+  display: block;
+}
+.dropDownMenuShowClass
+{
+  z-index: 1;
+  height: 20vh;
+  width: 20vw;
+  background-color: bisque;
+  color: red;
+  position: absolute;
+  display:none;
+}
+.dropDownMenuTextClass{
+  background-color: bisque;
+}
+.dropDownMenuTextClass:hover{
+  background-color: antiquewhite;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.AppNavHeaderMenuShow
+{
+  position: relative;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.AppNavHeader{
+  height:30px;
+  width:20vw;
+  display: inline-block;
+  text-align: center;
+  padding-top: 20px;
 }

@@ -1,0 +1,88 @@
+.homePageTag{
+    top: 50%;
+    width: fit-content;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+.homePageImg{
+    z-index: -1;
+    height: 100%;
+    position: relative;
+    width: auto;
+    display: block;
+    opacity: 0.6;
+    top:-5%;
+}
+.homePageDiv{
+    height: 90vh;
+    width: 75vw;
+    text-align: center;
+    margin: auto;
+    padding-top: 2%;
+    overflow: hidden;
+
+}
+img:hover{
+transform: scale(1.1);
+z-index: 1;
+}
+.img-thumbnail {
+    transition: transform 500ms;
+    cursor: pointer;
+}
+.col-md-4{
+    overflow: hidden;
+}
+.col-lg-3{
+    overflow: hidden;
+}
+.img-popup{
+    width: 65vw;
+    height: 90vh;
+    position: absolute;
+    left:0;
+    right: 0;
+    top:0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 29vh;
+    box-shadow: 0 0 40px 5px rgba(0, 0, 0, 0.3);
+    transform: none;
+    overflow: visible;
+    z-index: 2;
+}
+// .img-load{
+//     width: 18vw;
+//     height: auto;
+//     padding: 10px;
+    
+// }
+.img-horizon {
+    width: 15vw;
+    height: 30vh;
+    margin: 0;
+    display: inline-block;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+    padding: 2px;
+}
+.img-vertical {
+    width: 25vw;
+    height: 30vh;
+    margin: 0;
+    display: inline-block;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+    padding: 2px;
+}
+.img-container{
+    text-align: initial;
+    width: 65vw;
+    height: auto;
+    margin: auto;
+}
